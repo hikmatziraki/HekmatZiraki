@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Byekan';
+    src: url('../fonts/Bye.ttf') format('truetype'),
+    url('../fonts/Byekan.woff') format('wolf');
+}
+
+@font-face {
+    font-family: lalezar;
+    src: url('../fonts/lalezar.ttf') format('truetype'),
+    url('../fonts/lalezar.woff') format('woff');
+}
+body{
+    font-family: Byekan;
+}
+.header {
+    height: 550px;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.header .nav-list{
+    list-style-type: none;
+}
+
+.nav-item{
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-item:hover{
+    display: inline-block;
+    color: orange;
+}
+
+.header h1{
+    font-size: 65px;
+    font-family: lalezar;
+    margin-top: 90px;
+}
+.header h1 span{
+    color: orange;
+}
+.desc{
+    width: 450px;
+    margin: auto;
+    height: 55px;
+    line-height: 55px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px #bbbbbb;
+}
+
+.member-pic{
+    width: 100%;
+}
+
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.member-bio{
+    padding: 25px;
+    text-align: justify;
+    
+}
+
+.about{
+    height: 700px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    padding: 50px;
+    background-color: #545a54;
+    background-blend-mode: multiply;
+}
+
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(135,135,135,.3);
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    padding: 100px 120px;
+    color: white;
+}
+
+.circle h2{
+    font-size: 37px;
+    padding-top: 35px;
+}
+.circle p{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.soc{
+    background-color: #8a918c;
+}
+
+.soc img{
+    width: 45px;
+    margin: 10px;
+}
+
+.footer h2{
+    margin: 1px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
